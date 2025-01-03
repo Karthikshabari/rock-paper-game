@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="rock.css">
+        <script src="rock.js"></script>
+    </head>
+
+    <body style="background-color: rgb(244, 164, 96);">
+        <div class="f space">
+            <p>ROCK</p>
+            <p>PAPER</p>
+            <p>SCISSORS</p>
+        </div>
+        <div class="f">
+            <img src="/rockpaper/rock.png" class="image-size" onclick="val('rock')">
+            <img src="/rockpaper/paper.png"  class="image-size" onclick="val('paper')">
+            <img src="/rockpaper/sci.png"  class="image-size" onclick="val('sci')">
+        </div>
+
+        <div>
+            <p style="font-weight: bold; font-size: large; margin-top:50px ; display: inline-block;">SCORE</p>
+            <p class="score"></p>
+            <button class="button" style="background-color: rgb(202, 134, 75) ; " onclick="reset()">Reset</button>
+        </div>
+
+    </body>
+
+</html>
